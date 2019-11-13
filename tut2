@@ -1,0 +1,59 @@
+\documentclass[a4 paper, 12 pt]{article}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+
+\begin{document}
+\title{\textbf{Latex and HTML}}
+\maketitle
+\begin{center}
+\author{{\large \textbf{Tutorial-2}}}
+\end{center}
+ \textbf{\underline{\textsl{Objective}}}: To learn uses  of Mathematical Symbols.
+ \\
+ \\
+ \begin{enumerate}
+\item   Eastablish the validity of the following argument: \newline [(P$\rightarrow$Q) $\wedge$ ($\neg$R$\vee$S) $\wedge$ (P$\vee$R)] $\rightarrow$ ($\neg$ Q $\rightarrow$S).
+ \item the following are well-formed formulas: 
+     \begin{itemize}
+     	\item[a.] $\forall$x(P(x) $\wedge$ Q(x))\\
+      \item[b.] $\forall$x(P(x) $\wedge$ $\exists$x Q(x)) $\vee\forall$x(P(x)$\rightarrow$Q(x)) \newline
+      \item[c.] $\exists x (x=2y) \wedge (x^2+2x < 4) \rightarrow (x $<$ z))\rightarrow (x=2y)$ \newline
+      \item[d.] $\forall$x $\exists$ y(R(x.y) $\wedge$ (x $<$ y) $\rightarrow$ $\exists$y (S(x) $\vee$ (x $<$ Y))) \newline
+    \end{itemize}
+  \item following are the rules :\\
+        \begin{itemize}
+        	\item[]  $RI_{15} \quad$ Universal instantiation \\
+        	\phantom{$RI_{15}$} $\quad \underline{\forall x P(x}$\\
+        	\phantom{$RI_{15}$} $\quad$ $\therefore$ P(c) \\
+        	\phantom{$RI_{15}$} $\quad$ c is an arbitrary element of the universe  \\
+        	\\
+            \item[] $RI_{16}$ $\quad$ Existential instantiation \\
+            \phantom{$RI_{16}$} $\qquad$ $\quad$ $\quad$ $\underline{\exists xP(x)}$\\
+             \phantom{$RI_{16}$} $\quad$ {$\therefore$ P(c)}\\
+              \phantom{$RI_{16}$} $\quad$ c is some element for which p(c) is true.\\
+          \end{itemize}
+ \item  The number of r-permutations on an n-element set S is p(n,r) = n(n-1)(n-2)...(n-r+1)= $\frac{(n)!}{(n-r)!}$
+ \item $|A_{n}| = |B_{n}| = \frac{1}{2} 2^n = 2^{n-1}$\\           
+ \item Principle of Inclusion-Exclusion\\
+            $|A_{1} \cup A_{2} \cup A_{3}  \ldots \cup A_{n}|$ = ${\sum_{1 \leq r \leq n} |A_r|}$ - $\displaystyle{{\sum_{1 \leq r < s \leq n}} |A_{r} \cap A_s|} $ + ${\sum_{1 \leq r < s < t \leq n} |A_{r} \cap A_{s} \cap A_{t}|- \ldots +}$ \\ ${(-1)^{n-1}|A_{1} \cap A_{2} \cap A_{3} \ldots \cap A_{n}|} $ \\
+ \item some important functions:\\
+ \begin{itemize}
+ 	\item[a.] \textbf{Characterstic Function:} Let X be a set and A be any subset\\
+ 	of X. The Characterstic function $X_{A}$ of A is a function from X to\\
+ 	{0, 1} defined by\\
+ 	\begin{center}
+ 		$ X_{A}(x)= \begin{cases}
+ 		1 & if x \in A\\
+ 		0 & if x \notin A\\
+ 		\end{cases}$\\
+ 	\end{center}
+ \item[b.] \textbf{Floor Function:} The floor function is a function $\lfloor$ $\rfloor$ From R to\\ Z defined by:\\
+ \\
+\phantom{ Z defined by:}$\lfloor x \rfloor$ = the greatest integer less than or equal to x.\\
+\item[c.]  \textbf{Ceiling function:} the ceiling function is a function $\lceil$ $\rceil$ from R\\
+to Z.
+ \end{itemize}             
+\end{enumerate}
+\end{document}
